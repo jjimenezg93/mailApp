@@ -8,7 +8,7 @@ namespace To_Do
 		{
 
 
-			Lista_Tareas l=new Lista_Tareas();;
+			Lista_Tareas l=new Lista_Tareas();
 					
 			int n = Interfaz.Menu_Principal();
 
