@@ -10,10 +10,21 @@ namespace To_Do
 			nombre=n;
 			descripcion=d;
 		}
+		public Tarea ()
+		{
+			System.Console.WriteLine ("Nombre de la tarea");
+			nombre= Console.ReadLine ();
+
+			System.Console.WriteLine ("Fecha de la tarea");
+			fecha= (Convert.ToInt32 (Console.ReadLine ()));
+
+			System.Console.WriteLine ("Descripcion de la tarea");
+			descripcion=Console.ReadLine ();
+		}
 		public string toString ()
 		{
 			string aux;
-			aux="Nombre:" + nombre+"\nFecha"+fecha+"\nDescripccion:\n"+descripcion;
+			aux="Nombre: " + nombre+"\nFecha: "+fecha+"\nDescripccion:\n"+descripcion;
 			return aux;
 		}
 		//Cambiar tipo de dato si es necesario

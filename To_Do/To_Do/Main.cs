@@ -9,12 +9,14 @@ namespace To_Do
 
 
 			Lista_Tareas l=new Lista_Tareas();
-					
-			int n = Interfaz.Menu_Principal();
 
+			int n;
+
+			do{
+			n = Interfaz.Menu_Principal();
 			switch (n) {
 			case 1:
-				Tarea t=new Tarea(8,"jose","desc");
+				Tarea t=new Tarea();
 				l.Anadir(t);
 				break;
 
@@ -25,10 +27,10 @@ namespace To_Do
 				break;
 			
 			case 3:
-				l.ToString();
+				l.toString();
 				break;
 			}
-
+			}while(n!=0);
 			}
 		}
 	}
