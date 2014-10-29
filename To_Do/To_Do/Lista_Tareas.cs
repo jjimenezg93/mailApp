@@ -6,8 +6,9 @@ namespace To_Do
 	public class Lista_Tareas
 	{
 		public Lista_Tareas()
-		{
+		{lista=new List<Tarea>();
 		}
+
 		public void Anadir(Tarea t){
 			lista.Add(t);
 		}

@@ -7,10 +7,10 @@ namespace To_Do
 		public static void Main (string[] args)
 		{
 
-			Interfaz faz;
-			Lista_Tareas l;
 
-			int n = faz.Menu_Principal();
+			Lista_Tareas l=new Lista_Tareas();;
+					
+			int n = Interfaz.Menu_Principal();
 
 			switch (n) {
 			case 1:
