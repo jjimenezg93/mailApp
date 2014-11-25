@@ -8,7 +8,7 @@ namespace correo
 	{
 		public PanelRecibir ()
 		{
-			mensajes=Principal.FetchAllMessages("pop.gmail.com",995,true,"oscaresei@gmail.com","ord%2695");
+			mensajes=Principal.FetchAllMessages("pop.gmail.com",995,true,"oscaresei@gmail.com","");
 			this.Build ();
 		}
 		private void Build ()
