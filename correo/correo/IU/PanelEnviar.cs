@@ -85,7 +85,7 @@ public class PanelEnviar:Form
 	{ 
 		System.Net.Mail.MailMessage msg = new System.Net.Mail.MailMessage(); 
 		msg.To.Add(destinatario); 
-		msg.From = new MailAddress("oscaresei@gmail.com", "Oscar", System.Text.Encoding.UTF8); 
+		msg.From = new MailAddress("", "Oscar", System.Text.Encoding.UTF8); 
 		msg.Subject = asunto; 
 		msg.SubjectEncoding = System.Text.Encoding.UTF8; 
 		msg.Body = cuerpo; 
@@ -94,7 +94,7 @@ public class PanelEnviar:Form
 
 		//Aquí es donde se hace lo especial 
 		SmtpClient client = new SmtpClient(); 
-		client.Credentials = new System.Net.NetworkCredential("oscaresei@gmail.com", "ord%2695" ); 
+		client.Credentials = new System.Net.NetworkCredential("", "" ); 
 		client.Port = 587; 
 		client.Host = "smtp.gmail.com"; 
 		client.EnableSsl = true; //Esto es para que vaya a través de SSL que es obligatorio con GMail 
