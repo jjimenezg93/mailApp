@@ -1,4 +1,5 @@
 using System;
+using System.Windows.Forms;
 
 namespace To_Do
 {
@@ -7,30 +8,38 @@ namespace To_Do
 		public static void Main (string[] args)
 		{
 
-
 			Lista_Tareas l=new Lista_Tareas();
 
-			int n;
 
+			//InterfazConsola faz=new InterfazConsola();
+
+			var f = new InterfazVisual(l);
+			Application.Run( f );
+
+			/*int n=0;
 			do{
-			n = Interfaz.Menu_Principal();
+			n=faz.Menu_Principal();
+
 			switch (n) {
 			case 1:
-				Tarea t=new Tarea();
+
+				Tarea t=new Tarea(8,"jose","desc");
 				l.Anadir(t);
 				break;
 
 			case 2:
 					//Mandar a su sitio
-				System.Console.WriteLine ("Cual quieres borrar?");
-				l.Borrar (Convert.ToInt32 (Console.ReadLine ()));
-				break;
+				
+					l.Borrar (faz.Borrar(l));
+					System.Console.WriteLine ("C");
+					break;
 			
 			case 3:
 				l.toString();
 				break;
 			}
-			}while(n!=0);
-			}
+
+			}while(n!=0);*/
+		}
 		}
 	}

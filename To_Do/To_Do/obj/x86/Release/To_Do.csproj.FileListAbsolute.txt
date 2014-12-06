@@ -1,0 +1,3 @@
+C:\Users\Jose\Desktop\Todolist\To_Do\To_Do\obj\x86\Release\To_Do.csprojResolveAssemblyReference.cache
+C:\Users\Jose\Desktop\Todolist\To_Do\To_Do\bin\Release\To_Do.exe
+C:\Users\Jose\Desktop\Todolist\To_Do\To_Do\obj\x86\Release\To_Do.exe

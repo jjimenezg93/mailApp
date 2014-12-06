@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="To_Do/Tarea.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="To_Do/InterfazVisual.cs">
     <Files>
-      <File FileName="To_Do/Tarea.cs" Line="21" Column="54" />
-      <File FileName="To_Do/Interfaz.cs" Line="21" Column="21" />
-      <File FileName="To_Do/Lista_Tareas.cs" Line="25" Column="39" />
-      <File FileName="To_Do/Main.cs" Line="14" Column="1" />
+      <File FileName="To_Do/Main.cs" Line="17" Column="25" />
+      <File FileName="To_Do/Tarea.cs" Line="5" Column="2" />
+      <File FileName="To_Do/Lista_Tareas.cs" Line="6" Column="2" />
+      <File FileName="To_Do/InterfazVisual.cs" Line="52" Column="80" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
