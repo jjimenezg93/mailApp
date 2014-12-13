@@ -1,0 +1,10 @@
+C:\Users\Oscar\Downloads\correoFUNCIONAv2\correo\bin\Debug\correo.exe
+C:\Users\Oscar\Downloads\correoFUNCIONAv2\correo\bin\Debug\correo.pdb
+C:\Users\Oscar\Downloads\correoFUNCIONAv2\correo\obj\x86\Debug\Cliente_Correo.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\correoFUNCIONAv2\correo\obj\x86\Debug\correo.exe
+C:\Users\Oscar\Downloads\correoFUNCIONAv2\correo\obj\x86\Debug\correo.pdb
+C:\Users\Oscar\Downloads\Cliente_Correo\correo\bin\Debug\correo.exe
+C:\Users\Oscar\Downloads\Cliente_Correo\correo\bin\Debug\correo.pdb
+C:\Users\Oscar\Downloads\Cliente_Correo\correo\obj\x86\Debug\Cliente_Correo.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\Cliente_Correo\correo\obj\x86\Debug\correo.exe
+C:\Users\Oscar\Downloads\Cliente_Correo\correo\obj\x86\Debug\correo.pdb

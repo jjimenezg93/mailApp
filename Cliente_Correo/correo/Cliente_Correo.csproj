@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4B8BE500-C91A-4D62-A979-3FEA5DCEBD80}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>correo</RootNamespace>
+    <AssemblyName>correo</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="OpenPop">
+      <HintPath>bin\Debug\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IU\AssemblyInfo.cs" />
+    <Compile Include="IU\MainWindow.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="IU\PanelRecibir.cs" />
+    <Compile Include="IU\PanelEnviar.cs" />
+    <Compile Include="formulario.cs" />
+    <Compile Include="Editor.cs" />
+    <Compile Include="Contacto.cs" />
+    <Compile Include="Contactos.cs" />
+    <Compile Include="VentanaPPalDesigner.cs" />
+    <Compile Include="VentanaPPalFuntionalities.cs" />
+    <Compile Include="InterfazConsola.cs" />
+    <Compile Include="Xmlr.cs" />
+    <Compile Include="InterfazVisual.cs" />
+    <Compile Include="Lista_Tareas.cs" />
+    <Compile Include="Tarea.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
