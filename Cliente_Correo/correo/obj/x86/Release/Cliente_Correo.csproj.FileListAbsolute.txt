@@ -1,0 +1,4 @@
+C:\Users\Oscar\Desktop\Cliente_Correo\correo\bin\Release\correo.exe
+C:\Users\Oscar\Desktop\Cliente_Correo\correo\bin\Release\OpenPop.dll
+C:\Users\Oscar\Desktop\Cliente_Correo\correo\obj\x86\Release\Cliente_Correo.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\Cliente_Correo\correo\obj\x86\Release\correo.exe

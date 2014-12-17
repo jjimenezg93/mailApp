@@ -62,7 +62,7 @@ namespace correo
 
         private void btBorrar_Click(object sender, EventArgs e)
         {
-			this.contactos.RemoveAt(currentRow-1);
+			this.contactos.RemoveAt(currentRow);
 			this.Actualiza();
 			this.tbNombre.Text = "";
 			this.tbEmail.Text = "";
